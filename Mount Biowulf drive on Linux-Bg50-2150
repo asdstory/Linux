@@ -30,7 +30,10 @@
 #NOTE: the Kerberos ticket acquired above will expire after 12 hours, which may cause the mount to hang. It can be renewed within its lifetime (7 days),
 
 #To mount your Biowulf /data/[user]:
+
 sudo mount -t cifs -o uid=200260959,gid=200260959,cruid=dout2,sec=krb5i //hpcdrive.nih.gov/data /data/biowulf-data-smb/dout2
+
+sudo mount -t cifs -o uid=200238860,gid=200238860,cruid=tanx2,sec=krb5i //hpcdrive.nih.gov/data /data/biowulf-data-smb/tanx2
 
 #Find your uid and gid:
 id usrname
