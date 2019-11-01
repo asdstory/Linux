@@ -1,5 +1,8 @@
 #Synchronize files from remote server to local drive
 
+#First, cd into your local folder that you want the data to be transfered
+#Then, do rsync as follows:
+
 rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-10-29-TYD-sidH-corrected-averages/*sum_DW.mrc ./
 
 #Synchronize the whole foder from remote server to local drive
