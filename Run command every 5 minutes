@@ -1,0 +1,14 @@
+There's so many options to choose from, But I'll show you 4 clever ways to Implement this.
+
+for (( i=0; i<=20; i++)); do 'acd_cli sync' $i ;sleep 300; done
+This says that i Is 0, Then 0 Is less than 20, So It will minus 1 until It reaches 0. So It will run 20 times. Every 5 minutes
+while true; do 'acd_cli sync'; sleep 300; done | at now +30 min
+This says while true, do the command given every 5 minutes, Starting now for 30 minutes long, To run this command you'll need to Install at by running apt install at --assume-yes, Not exactly sure that this will work on a loop though
+while true [ $i -lt 20 ]; do 'acd_cli sync' & i=$[$i+1];sleep 300; done
+This command says, While $i remains lower than 20 do the Amazon Cloud Drive Command Line Interface you listed, Then i Is still i plus one on every occurrence of the command, Every 5 minutes forever
+for i in $(seq 20); do 'acd_cli sync' $i; sleep 300; done
+This says For the Input sequence 20 do the Amazon Cloud Drive sync, Every 5 minutes 20 times
+
+#You can also use watch
+
+watch -n 300 showq -u dout2
