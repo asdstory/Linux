@@ -35,3 +35,7 @@ cd /Volumes/bbc/Lab-Jiang/EM-RAW-DATA/jiangy6
 
 #Do rsync 
 rsync -r -a -v -e ssh /Volumes/bbc/Lab-Jiang/EM-RAW-DATA/dout2/PnuC/2019-10-08-PnuC-C8-Krios_counting-finished-frames jiangy6@helix.nih.gov:/data/jiangy6/ 
+
+#Transfer from one folder to another (local drive)
+
+rsync -a /data/dout2/20190429Krios_PnuC-C8/2019-04-29-PnuC-C8_Krios_patch-7-corrected-averages/*_sum_DW.mrc ./
