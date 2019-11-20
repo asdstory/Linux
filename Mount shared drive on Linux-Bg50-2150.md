@@ -23,6 +23,7 @@ sudo mount -t cifs -o user=dout2 //128.231.112.239/LCBBData/Jiang_Lab /data/nidd
 
 
 # How to Find your uid and gid:
+#Just do following command
 id usrname
 
 Reference: https://hpc.nih.gov/docs/hpcdrive.html 
