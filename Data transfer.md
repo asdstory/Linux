@@ -40,4 +40,6 @@ rsync -r -a -v -e ssh /Volumes/bbc/Lab-Jiang/EM-RAW-DATA/dout2/PnuC/2019-10-08-P
 
 # Transfer from one folder to another (local drive)
 
-rsync -a /data/dout2/20190429Krios_PnuC-C8/2019-04-29-PnuC-C8_Krios_patch-7-corrected-averages/*_sum_DW.mrc ./
+rsync -a -v /data/dout2/20190429Krios_PnuC-C8/2019-04-29-PnuC-C8_Krios_patch-7-corrected-averages/*_sum_DW.mrc ./
+
+rsync -a -v /data/nhlbi-nfs/lab-jiang/EM-PROCESSED-DATA/dout2/sidH-30/2019-11-05-Tongyi-sidH-30-corrected-averages/*_sum_DW.mrc ./
