@@ -14,7 +14,7 @@ sudo mount -t cifs -o uid=200260959,gid=200260959,cruid=dout2,sec=krb5i //hpcdri
 
 sudo mount -t cifs -o uid=200238860,gid=200238860,cruid=tanx2,sec=krb5i //hpcdrive.nih.gov/data /data/biowulf-data-smb/tanx2
 
-# Mount LCBBBData shared drive
+# Mount LCBBData shared drive
 
 #Under root, add following command into your /etc/fstab.
 
