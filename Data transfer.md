@@ -9,6 +9,8 @@ rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-10-2
 
 rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-10-29-TYD-sidH-corrected-averages ./
 
+rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-11-05-Tongyi-sidH-30-finished-frames ./
+
 # Synchronize from one directory to another (both are local drive)
 
 rsync -r -a -z -h -v ~/Desktop/2019-10-29-TYD-sidH-corrected-averages ./
