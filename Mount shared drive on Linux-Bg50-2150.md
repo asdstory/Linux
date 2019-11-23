@@ -18,13 +18,15 @@ sudo mount -t cifs -o uid=200238860,gid=200238860,cruid=tanx2,sec=krb5i //hpcdri
 
 #Under root, add following command into your /etc/fstab.
 
-//128.231.112.239/LCBBBData/Jiang_Lab /data/niddk-LCBBData cifs rw,domain=NIH.gov,vers=1.0,noauto,user 0 0
+//128.231.112.239/LCBBData/Jiang_Lab /data/niddk-LCBBData cifs rw,domain=NIH.gov,vers=1.0,noauto,user 0 0
 
 #Do following command
 
-sudo mount -t cifs -o user=dout2 //128.231.112.239/LCBBData/Jiang_Lab /data/niddk-LCCBData
+#sudo mount -t cifs -o uid=200260959,gid=200260959,cruid=dout2,sec=,user=dout2 //128.231.112.239/LCBBData/Jiang_Lab /data/niddk-LCBBData
 
+#sudo mount -t cifs -o uid=200260959,gid=200260959,cruid=dout2,sec=ntlmssp,user=dout2 //128.231.112.239/LCBBData/Jiang_Lab /data/niddk-LCBBData
 
+#sudo mount -t cifs -o uid=200260959,gid=200260959,cruid=dout2,user=dout2 //128.231.112.239/LCBBData/Jiang_Lab /data/niddk-LCBBData
 
 # How to Find your uid and gid:
 #Just do following command
