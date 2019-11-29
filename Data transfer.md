@@ -7,7 +7,9 @@ rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-10-2
 
 # Synchronize the whole foder from remote server to local drive
 
-rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-10-29-TYD-sidH-corrected-averages ./
+#On our own Linux computer, cd /data/nhlbi-nfs/lab-jiang/EM-PROCESSED-DATA/dout2/PnuC
+
+rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-11-28-TYD-PnuC_3NR-corrected-averages ./
 
 rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-11-05-Tongyi-sidH-30-finished-frames ./
 
