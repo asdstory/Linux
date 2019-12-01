@@ -49,6 +49,6 @@ cd xxx
 
 #Then,do
 
-rsync -a -v /data/dout2/20190429Krios_PnuC-C8/2019-11-23-TYD-PnuC_3NR-corrected-averages/*_sum_DW.mrc ./
+rsync -a -v /data/nhlbi-nfs/lab-jiang/EM-PROCESSED-DATA/dout2/CBFSMMHC/2019-11-30-TYD-CBFSMMHC-corrected-averages/*_sum_DW.mrc ./
 
 rsync -a -v /data/nhlbi-nfs/lab-jiang/EM-PROCESSED-DATA/dout2/PnuC/2019-11-28-TYD-PnuC_0NR-corrected-averages/*_sum_DW.mrc ./
