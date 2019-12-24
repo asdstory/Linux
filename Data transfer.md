@@ -52,3 +52,18 @@ cd xxx
 rsync -a -v /data/nhlbi-nfs/lab-jiang/EM-PROCESSED-DATA/dout2/CBFSMMHC/2019-11-30-TYD-CBFSMMHC-corrected-averages/*_sum_DW.mrc ./
 
 rsync -a -v /data/nhlbi-nfs/lab-jiang/EM-PROCESSED-DATA/dout2/PnuC/2019-11-28-TYD-PnuC_0NR-corrected-averages/*_sum_DW.mrc ./
+
+# Pre-screening of the raw image
+#After transfer data to the lab folder, it is much better for further data processing if we can preview and delete bad images, e.g. whole image were just shot on carbon membane.
+
+## Preview of all images
+
+- [ ] cd to /data/nhlbi-nfs/lab-jiang/EM-PROCESSED-DATA/dout2/PnuC/2019-12-23-TYD-PnuC_0NR-C8-corrected-averages/dosef_quick_png
+- [ ] gwenview .
+
+#Screening and delete original image if reasonable, both in EM-RAW folder and EM-PROCESSed foler.
+
+- [ ] rm PnuC_0NR-C8_4x3s_030_Dec23* 
+
+
+
