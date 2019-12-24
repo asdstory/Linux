@@ -63,7 +63,8 @@ rsync -a -v /data/nhlbi-nfs/lab-jiang/EM-PROCESSED-DATA/dout2/PnuC/2019-11-28-TY
 
 #Screening and delete original image if reasonable, both in EM-RAW folder and EM-PROCESSed foler.
 
-- [ ] rm PnuC_0NR-C8_4x3s_030_Dec23* 
+- [ ] find . -name PnuC_0NR-C8_4x3s_031_Dec23* -type f -delete 
+
 
 
 
