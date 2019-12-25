@@ -65,6 +65,11 @@ rsync -a -v /data/nhlbi-nfs/lab-jiang/EM-PROCESSED-DATA/dout2/PnuC/2019-11-28-TY
 
 - [ ] find . -name PnuC_0NR-C8_4x3s_031_Dec23* -type f -delete 
 
+OR we can also delete mutiple files using regular expression, like this
+
+- [ ] find . -name "PnuC_0NR-C8_3x6s_28[3-9]_Dec25*" -type f -delete
+
+
 
 
 
