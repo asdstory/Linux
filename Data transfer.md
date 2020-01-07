@@ -33,6 +33,12 @@ cd xxx
 
 rsync -r -a -v -e ssh smb://hl-share.nhlbi.nih.gov/bbc/Lab-Jiang/ ./
 
+# Transfer from micefdata1 to biowulf
+
+- [ ] login to the micefdata1: ssh –Y dout2@micefdata1.niddk.nih.gov
+- [ ] cd to your project folder
+- [ ] rsync -advz ./2020-01-06-PnuC_0NR_C8-leginon-counting-corrected-averages helix.nih.gov:/data/dout2/20200106Krios_PnuC_0NR_C8/
+
 # For Mac, just cd to your folder on your Mac,
 
 cd /Volumes/bbc/Lab-Jiang/EM-RAW-DATA/jiangy6
