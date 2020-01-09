@@ -9,13 +9,17 @@ rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-10-2
 
 #On our own Linux computer, cd /data/nhlbi-nfs/lab-jiang/EM-PROCESSED-DATA/dout2/PnuC
 
-rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-11-28-TYD-PnuC_3NR-corrected-averages ./
+- [ ] rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-11-28-TYD-PnuC_3NR-corrected-averages ./
 
-rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-11-05-Tongyi-sidH-30-finished-frames ./
+- [ ] rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-11-05-Tongyi-sidH-30-finished-frames ./
 
 # Synchronize from one directory to another (both are local drive)
 
-rsync -r -a -z -h -v ~/Desktop/2019-10-29-TYD-sidH-corrected-averages ./
+- [ ] rsync -r -a -z -h -v ~/Desktop/2019-10-29-TYD-sidH-corrected-averages ./
+
+#cd to the destination folder, and do 
+
+- [ ] rsync -r -a -z -h -v /data/biowulf-data-smb/dout2/20200106Krios_PnuC_0NR_C8/2020-01-06-PnuC_0NR_C8-leginon-counting-finished-frames/*.tif ./
 
 # Transfer from shared folder to Biowulf
 
