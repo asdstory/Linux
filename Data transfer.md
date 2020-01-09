@@ -55,9 +55,11 @@ cd xxx
 
 #Then,do
 
-rsync -a -v /data/nhlbi-nfs/lab-jiang/EM-PROCESSED-DATA/dout2/CBFSMMHC/2019-11-30-TYD-CBFSMMHC-corrected-averages/*_sum_DW.mrc ./
+- [ ] rsync -a -v /data/nhlbi-nfs/lab-jiang/EM-PROCESSED-DATA/dout2/CBFSMMHC/2019-11-30-TYD-CBFSMMHC-corrected-averages/*_sum_DW.mrc ./
 
-rsync -a -v /data/nhlbi-nfs/lab-jiang/EM-PROCESSED-DATA/dout2/PnuC/2019-11-28-TYD-PnuC_0NR-corrected-averages/*_sum_DW.mrc ./
+- [ ] rsync -a -v /data/nhlbi-nfs/lab-jiang/EM-PROCESSED-DATA/dout2/CBFSMMHC/2019-11-30-TYD-CBFSMMHC-corrected-averages/*_sum_DW.mrc ./
+
+- [ ] rsync -a -v /data/nhlbi-nfs/lab-jiang/EM-RAW-DATA/dout2/PnuC/2020-01-06-PnuC-leginon-counting-failed-frames ./
 
 # Pre-screening of the raw image
 #After transfer data to the lab folder, it is much better for further data processing if we can preview and delete bad images, e.g. whole image were just shot on carbon membane.
