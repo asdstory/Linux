@@ -3,7 +3,7 @@
 #First, cd into your local folder that you want the data to be transfered
 #Then, do rsync as follows:
 
-rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-10-29-TYD-sidH-corrected-averages/*sum_DW.mrc ./
+- [ ] rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-10-29-TYD-sidH-corrected-averages/*sum_DW.mrc ./
 
 # Synchronize the whole foder from remote server to local drive
 
@@ -17,7 +17,7 @@ rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-10-2
 
 #Login to hpcdrive.nih.gov
 
-ssh -X dout2@hpcdrive.nih.gov
+- [ ] ssh -X dout2@hpcdrive.nih.gov
 
 #mkdir a new folder and cd into it
 
@@ -27,7 +27,7 @@ cd xxx
 
 #do rsync, like: 
 
-rsync -r -a -v -e ssh smb://hl-share.nhlbi.nih.gov/bbc/Lab-Jiang/ ./
+- [ ] rsync -r -a -v -e ssh smb://hl-share.nhlbi.nih.gov/bbc/Lab-Jiang/ ./
 
 # Transfer from micefdata1 to biowulf
 
@@ -37,10 +37,10 @@ rsync -r -a -v -e ssh smb://hl-share.nhlbi.nih.gov/bbc/Lab-Jiang/ ./
 
 # For Mac, just cd to your folder on your Mac,
 
-cd /Volumes/bbc/Lab-Jiang/EM-RAW-DATA/jiangy6
+- [ ] cd /Volumes/bbc/Lab-Jiang/EM-RAW-DATA/jiangy6
 
 #Do rsync 
-rsync -r -a -v -e ssh /Volumes/bbc/Lab-Jiang/EM-RAW-DATA/dout2/PnuC/2019-10-08-PnuC-C8-Krios_counting-finished-frames jiangy6@helix.nih.gov:/data/jiangy6/ 
+- [ ] rsync -r -a -v -e ssh /Volumes/bbc/Lab-Jiang/EM-RAW-DATA/dout2/PnuC/2019-10-08-PnuC-C8-Krios_counting-finished-frames jiangy6@helix.nih.gov:/data/jiangy6/ 
 
 # Transfer from one folder to another (local drive)
 
