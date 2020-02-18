@@ -4,15 +4,6 @@
 
 
 
-
-
-
-
-### Examples about how to use awk:
-- [ ] awk -F, '{if($1=="OPTSTK"&&$13>0)print > "stockoptions.csv";}' fo1.csv fo2.csv
-- [ ] awk -F, '$1 == "OPTSTK" && $13 > 0 { print >> "stockoptions.csv" }' fo1.csv fo2.csv
-- [ ] awk -F, '$1 == "OPTSTK" && $13 > 0' fo1.csv fo2.csv >>"stockoptions.csv"
-- [ ] awk '{if ($1 > 30) print $1}' testfile
-https://likegeeks.com/awk-command/
 ### More detail about the awk command:
+https://likegeeks.com/awk-command/
 http://blog.cee.moe/a-brief-introduction-to-grep-awk-and-sed.html
