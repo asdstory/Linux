@@ -8,8 +8,7 @@
 
 - [ ] vi ~/.bash_profile
 - [ ] module use /data/JiangLab/Apps/modulefiles #Add this line under "export PATH", as following
-- [ ] Press esc
-- [ ] :wq
+
 
 ````
 # .bash_profile
@@ -30,9 +29,13 @@ module use /data/JiangLab/Apps/modulefiles
 
 ````
 
+- [ ] Press esc
+- [ ] :wq
+
 # Step03 - exit biowulf and login again, and try
 
 - [ ] module spider relion 
+
 #You will see more relion versions like this: 
 
 ``````````````
