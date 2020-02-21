@@ -4,7 +4,7 @@
 
 - [ ]  mount|grep data2
  
-- [ ]  df
+- [ ]  df -h
  
 - [ ]  cd /data/
  
