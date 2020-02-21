@@ -1,21 +1,20 @@
-1990  mount
+- [ ]  mount
 
- 1991  cat /etc/fstab
+- [ ]  cat /etc/fstab
+
+- [ ]  mount|grep data2
  
- 1992  mount|grep data2
+- [ ]  df
  
- 1993  df
+- [ ]  cd /data/
  
- 1994  cd /data/
+- [ ]  ls
+- [ ] cd data2/
  
- 1995  ls
+- [ ]  ls
  
- 1996  cd data2/
+- [ ]  du -sh *
  
- 1997  ls
- 
- 1998  du -sh *
- 
- 1999  cd
+- [ ]  cd
  
 
