@@ -7,7 +7,7 @@
 - [ ] awk 'NR <= 18 {print $0 > "micrographs_ctf_new.star"} NR >18 && $3 >= 5000 && $3 <=30000 && $5 <= 1000 && $13 <=4 {print $0 >> "micrographs_ctf_new.star"}' micrographs_ctf.star
 
 ### Note: 
-- You can also change any of the thresold to get desired micrograph, e.g. default resolution thresold is 4, but you can change it to 5 to select more micrographs.* 
+- You can also change any of the thresold to get desired micrograph, e.g. default resolution thresold is 4, but you can change it to 5 to select more micrographs.
 - When trying to extract particles from selected micrographs using RELION, you will find that RELION only show "micrographs_ctf.star" in the default I/O. In the I/O panel, just select "micrographs_ctf.starCtfFind/job002/micrographs_ctf.satr" and change it to "CtfFind/job002/micrographs_ctf_new.star". In this way, you will extract particles only from micrographs you just selected. 
 
 
