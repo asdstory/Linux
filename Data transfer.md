@@ -35,6 +35,8 @@ cd xxx
 - [ ] cd to your project folder
 - [ ] rsync -advz ./2020-01-06-PnuC_0NR_C8-leginon-counting-corrected-averages helix.nih.gov:/data/dout2/20200106Krios_PnuC_0NR_C8/
 
+- [ ] rsync -a -d -v -z -e ssh dout2@micefdata1.niddk.nih.gov:/data/nhlbi/dout2/20200302-PnuC_0NR_Nano/2020-03-02-PnuC_0NR_Nano-leginon-counting-corrected-averages/*sum.mrc . 
+
 # For Mac, just cd to your folder on your Mac,
 
 - [ ] cd /Volumes/bbc/Lab-Jiang/EM-RAW-DATA/jiangy6
