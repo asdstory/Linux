@@ -12,3 +12,6 @@ This says For the Input sequence 20 do the Amazon Cloud Drive sync, Every 5 minu
 #You can also use watch
 
 watch -n 300 showq -u dout2
+
+
+watch -n 3600 showq -u dout2
