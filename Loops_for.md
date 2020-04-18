@@ -18,3 +18,7 @@ do
 done
 ```
 
+### for is used to step through multiple words
+```
+for i in apple pear fig ; do echo $i ; done
+```
