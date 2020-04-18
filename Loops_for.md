@@ -31,3 +31,13 @@ for i in {1..5}; do echo $i ; done
 array=(moe larry curly)
 for i in "${array[@]}" ; do echo $i ; done
 ```
+
+### Walk Through Directories
+#### Find all files in /home and count how many lines are in each file:
+```
+for file in $(ls -a ~/); do
+[[ -f ~/$file ]] && wc -l ~/$file
+done
+```
+
+
