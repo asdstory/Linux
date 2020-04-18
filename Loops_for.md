@@ -40,4 +40,12 @@ for file in $(ls -a ~/); do
 done
 ```
 
+### C-style for loop
+#### for can be used for integer  travers
+```
+for (( i=1 ; i < 2000 ; i=i+i ))
+do
+echo $i
+done
+```
 
