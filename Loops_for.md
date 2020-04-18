@@ -22,3 +22,7 @@ done
 ```
 for i in apple pear fig ; do echo $i ; done
 ```
+### With brace expansion:
+```
+for i in {1..5}; do echo $i ; done
+```
