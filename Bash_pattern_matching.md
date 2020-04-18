@@ -1,10 +1,10 @@
- If you set shopt -s extglob then you can also use extended pattern matching:
+ # If you set shopt -s extglob then you can also use extended pattern matching:
 
-?() - zero or one occurrences of pattern
-*() - zero or more occurrences of pattern
-+() - one or more occurrences of pattern
-@() - one occurrence of pattern
-!() - anything except the pattern
+- ?() - zero or one occurrences of pattern
+- *() - zero or more occurrences of pattern
+- +() - one or more occurrences of pattern
+- @() - one occurrence of pattern
+- !() - anything except the pattern
 
 ```
 
