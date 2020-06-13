@@ -6,7 +6,7 @@
 - @() - one occurrence of pattern
 - !() - anything except the pattern
 
-```
+```shell
 
 shopt -s extglob
 for arg in apple be cd meet o mississippi
