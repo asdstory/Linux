@@ -31,7 +31,7 @@ cd xxx
 
 # Transfer from micefdata1 to biowulf
 
-- [ ] login to the micefdata1: ssh –Y dout2@micefdata1.niddk.nih.gov
+- [ ] login to the micefdata1: ssh dout2@micefdata1.niddk.nih.gov
 - [ ] cd to your project folder
 - [ ] rsync -advz ./2020-01-06-PnuC_0NR_C8-leginon-counting-corrected-averages helix.nih.gov:/data/dout2/20200106Krios_PnuC_0NR_C8/
 
