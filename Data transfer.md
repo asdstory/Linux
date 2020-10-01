@@ -13,6 +13,10 @@
 
 - [ ] rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-11-05-Tongyi-sidH-30-finished-frames ./
 
+Or, just:
+
+- [ ] rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2020-09-30-TYD-RhopH-2pulldown* .
+
 # Transfer from shared folder to Biowulf
 
 #Login to hpcdrive.nih.gov
