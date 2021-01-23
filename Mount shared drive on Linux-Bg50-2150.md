@@ -6,13 +6,13 @@
 
 #Do following command
 
-kinit dout2@NIH.GOV
+- [ ] kinit dout2@NIH.GOV
 
-mount /data/biowulf-data-smb/dout2
+- [ ] mount /data/biowulf-data-smb/dout2
 
 #For Xiaofeng, it is
 
-sudo mount -t cifs -o uid=200238860,gid=200238860,cruid=tanx2,sec=krb5i //hpcdrive.nih.gov/data /data/biowulf-data-smb/tanx2
+- [ ] sudo mount -t cifs -o uid=200238860,gid=200238860,cruid=tanx2,sec=krb5i //hpcdrive.nih.gov/data /data/biowulf-data-smb/tanx2
 
 # Mount LCBBData shared drive
 
@@ -23,7 +23,7 @@ sudo mount -t cifs -o uid=200238860,gid=200238860,cruid=tanx2,sec=krb5i //hpcdri
 
 #Do following command
 
-mount /data/niddk-LCCBData
+- [ ] mount /data/niddk-LCCBData
 
 # How to Find your uid and gid:
 #Just do following command
