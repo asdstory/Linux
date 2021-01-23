@@ -19,7 +19,7 @@
 #Under root, add following command into your /etc/fstab.
 
 #NIDDK LCCB Data drive for TF20
-//128.231.112.239/LCBBData/Jiang_Lab /data/niddk-LCCBData cifs rw,domain=NIH.gov,vers=1.0,noauto,user 0 0
+- [ ] //128.231.112.239/LCBBData/Jiang_Lab /data/niddk-LCCBData cifs rw,domain=NIH.gov,vers=1.0,noauto,user 0 0
 
 #Do following command
 
