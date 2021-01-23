@@ -27,6 +27,6 @@ mount /data/niddk-LCCBData
 
 # How to Find your uid and gid:
 #Just do following command
-id usrname
+- [ ] id usrname
 
 Reference: https://hpc.nih.gov/docs/hpcdrive.html 
