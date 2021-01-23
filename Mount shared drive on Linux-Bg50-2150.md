@@ -22,7 +22,7 @@
 - [ ] //128.231.112.239/LCBBData/Jiang_Lab /data/niddk-LCCBData cifs rw,domain=NIH.gov,vers=1.0,noauto,user 0 0
 
 # NIDDK LCCB Data drive for TF20
-- [ ] //shares2.dkisilon2.niddk.nih.gov/LCBBData/Jiang_Lab /data/niddk-LCCBData cifs rw,domain=NIH.gov,vers=1.0,noauto,user 0 0
+- [ ] //shares2.dkisilon2.niddk.nih.gov/LCBBData /data/niddk-LCCBData cifs rw,domain=NIH.gov,vers=1.0,noauto,user 0 0
 
 
 #Do following command
