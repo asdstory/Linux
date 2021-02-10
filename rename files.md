@@ -6,3 +6,6 @@ Or, we can do
 
 - [ ] rename 's/RhopH-2Pulldown/PNPLA6/' *
 
+Or, use the for loop combined with move
+
+- [ ] for f in *.star; do mv -- "$f" "${f%.star}_DW.star"; done
