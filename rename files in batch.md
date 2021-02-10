@@ -9,3 +9,5 @@ Or, we can do
 Or, use the for loop combined with move
 
 - [ ] for f in *.star; do mv -- "$f" "${f%.star}_DW.star"; done
+
+*Note: Try modify "*.star" and "{f%.star}_DW.star" part to comply your request. 
