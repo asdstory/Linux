@@ -3,5 +3,6 @@
 - [ ] mkdir st001
 
 ```sh
-# for i in `ls -lrt | grep "May 12" | awk '{print $9}' `; do mv $i* /st001/; done
+# for i in `ls -lrt | grep "May 12" | awk '{print $10}' `; do mv $i* /st001/; done
 ```
+
