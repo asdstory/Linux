@@ -8,7 +8,7 @@
 - [ ] module use --append ~/modulefiles
 - [ ] module avail
 - [ ] module load xxx
-- [ ] 
+
 ### From: https://hpc.nih.gov/apps/modules.html#personal
 ### File name : 4.11.3.lua
 ```sh
