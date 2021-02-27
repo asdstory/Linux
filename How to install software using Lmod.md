@@ -1,5 +1,8 @@
 # How to manage personal modules on Linux
 
+## How to set up:
+### 
+
 ## How to use: 
 - [ ] module use --append ~/modulefiles
 - [ ] module avail
