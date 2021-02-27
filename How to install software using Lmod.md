@@ -2,6 +2,7 @@
 
 ## How to set up:
 ### You can make copies of the system modulefiles in "/usr/local/lmod/modulefiles" to use as templates, edit and save as your own lua file. 
+- [ ] scp -r /data/jianglab-nfs/programs/modulefiles/IMOD .
 
 ## How to use: 
 - [ ] module use --append ~/modulefiles
