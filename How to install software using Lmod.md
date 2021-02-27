@@ -1,12 +1,12 @@
 # How to manage personal modules on Linux
-## file name : 4.11.3.lua
+
 ## How to use: 
 - [ ] module use --append ~/modulefiles
 - [ ] module avail
 - [ ] module load xxx
 - [ ] 
 ### From: https://hpc.nih.gov/apps/modules.html#personal
-
+### file name : 4.11.3.lua
 ```sh
 
 local base = "/data/jianglab-nfs/programs/apps/imod_4.11.3/IMOD"
