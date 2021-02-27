@@ -1,7 +1,7 @@
 # How to manage personal modules on Linux
 
 ## How to set up:
-### 
+### You can make copies of the system modulefiles in "/usr/local/lmod/modulefiles" to use as templates, edit and save as your own lua file. 
 
 ## How to use: 
 - [ ] module use --append ~/modulefiles
