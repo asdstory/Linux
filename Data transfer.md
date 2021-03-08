@@ -41,10 +41,14 @@ cd xxx
 
 - [ ] rsync -a -d -v -z -e ssh dout2@micefdata1.niddk.nih.gov:/data/nhlbi/dout2/20200302-PnuC_0NR_Nano/2020-03-02-PnuC_0NR_Nano-leginon-counting-corrected-averages/*sum.mrc . 
 
-# Transfer from Linux loab folder tol Biowulf
+# Transfer from Linux local folder to Biowulf
 
 - [ ] rsync -a -d -v -z -e ssh * helix.nih.gov:/data/dout2/20210125Krios_Tomo_PnuCT0-C8/TomoSeries/
 - [ ] rsync -a -d -v -z -e ssh  *.tif helix.nih.gov://data/dout2/20210122Gracios_PnuCT-3NR-C8/finished-frames
+
+# Transfer from Biowulf to local folder
+
+- [ ] rsync -a -d -v -z -e ssh helix.nih.gov:/data/dout2/20210122Gracios_PnuCT-3NR-C8 .
 
 # For Mac, just cd to your folder on your Mac,
 
