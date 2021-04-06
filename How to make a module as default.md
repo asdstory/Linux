@@ -1,4 +1,4 @@
-Suppose you have several versions of the mythical UCC compiler suite:
+# Suppose you have several versions of the mythical UCC compiler suite:
 
 $ module avail ucc
 ---------- /opt/apps/modulefiles/Core -----------
