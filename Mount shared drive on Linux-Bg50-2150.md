@@ -29,8 +29,19 @@
 
 - [ ] mount /data/niddk-LCCBData
 
+# Mount the hl-share drive that contain Glacios data:
+
+### hl-share drive of MICEF dirshare for Glacios, etc.
+- [ ] //hl-share.nhlbi.nih.gov/dirshare /data/hl-share cifs rw,username=dout2,domain=NIH.gov,vers=3.0,noauto,user 0 0
+### Then, do following command
+
+- [ ] mount /data/hl-share
+
+
 # How to Find your uid and gid:
 #Just do following command
 - [ ] id usrname
 
 Reference: https://hpc.nih.gov/docs/hpcdrive.html 
+
+
