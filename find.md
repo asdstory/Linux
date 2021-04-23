@@ -5,6 +5,10 @@
 find . -print | grep -i  "fractions.mrc"
 ```
 
+### How to integrate mv command after find command? 
+```sh
+find . -name  "*Fractions.mrc" -exec mv -t . {} +
+```
 
 ### Find large files
 ````sh
