@@ -33,6 +33,8 @@
 
 #Under root, add following command into your /etc/fstab.
 
+- [ ] sudo vi /etc/fstab
+
 ###hl-share drive of MICEF dirshare for Glacios, etc.
 
 - [ ] //hl-share.nhlbi.nih.gov/dirshare /data/hl-share cifs rw,username=dout2,domain=NIH.gov,vers=3.0,noauto,user 0 0
