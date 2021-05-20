@@ -11,4 +11,5 @@ for i in `ls -lrt | grep "Feb 19" | awk '{print $10}' `; do mv $i* ./st001/; don
 
 ```sh
 for i in `ls -lrt | grep mdoc | awk -F '[. ]' '{print $14}'`; do mkdir $i; mv $i.* ./$i/; done
+for i in `ls -lrt | grep mrc | awk -F '[. ]' '{print $9}'`; do mkdir $i; mv $i.* ./$i/; done
 ```
