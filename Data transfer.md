@@ -50,6 +50,7 @@ cd xxx
 
 - [ ] rsync -a -d -v -z -e ssh helix.nih.gov:/data/dout2/20210122Gracios_PnuCT-3NR-C8 .
 - [ ] rsync --remove-source-files -av -e ssh helix.nih.gov:/data/dout2/20210412Glacios_UGT1A9-UDPGA .
+- [ ] rsync -avzhe ssh --progress helix.nih.gov:/data/dout2/20210524Krios_rOAT1-LMNG/finished-frames .
 
 # For Mac, just cd to your folder on your Mac,
 
