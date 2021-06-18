@@ -5,7 +5,7 @@
 
 - [ ] rsync -r -a -v -e ssh dout2@tf20leginon.jianglab.science:/data1/frames/2019-10-29-TYD-sidH-corrected-averages/*sum_DW.mrc ./
 
-# Synchronize the whole foder from remote server to local drive
+# Synchronize from TF20 remote server to local drive
 
 #On our own Linux computer, cd /data/nhlbi-nfs/lab-jiang/EM-PROCESSED-DATA/dout2/PnuC
 
