@@ -20,7 +20,7 @@ import glob, re, os
 
 path = os.getcwd()
 
-for filename in glob.glob( path + '\/*' ):
+for filename in glob.glob( path + '/*' ):
 	pattern = r'(\d{3})_(\d{2})\.(\d{2})\.(\d{2})\.mrc'				
 	replace = r'\1_\2_\3_\4.mrc'
 	
