@@ -39,6 +39,10 @@ cd xxx
 
 - [ ] rsync -a -d -v -z -e ssh dout2@micefdata1.niddk.nih.gov:/data/nhlbi/dout2/20200302-PnuC_0NR_Nano/2020-03-02-PnuC_0NR_Nano-leginon-counting-corrected-averages/*sum.mrc . 
 
+# Transfer from micefdata1 to lab folder
+
+- [ ] rsync --remove-source-files --progress -a -d -v -z -e ssh dout2@micefdata1.niddk.nih.gov:/data/nhlbi/dout2/20210629Krios_rOAT1-LMNG/2021-06-29-00-00-OAT_LMNG-finished-frames .
+
 # Transfer from Linux local folder to Biowulf
 
 - [ ] rsync -a -d -v -z -e ssh * helix.nih.gov:/data/dout2/20210125Krios_Tomo_PnuCT0-C8/TomoSeries/
