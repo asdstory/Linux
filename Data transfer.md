@@ -46,6 +46,8 @@ cd xxx
 # Transfer from Linux local folder to Biowulf
 
 - [ ] rsync -a -d -v -z -e ssh * helix.nih.gov:/data/dout2/20210125Krios_Tomo_PnuCT0-C8/TomoSeries/
+- [ ] rsync --progress -avdzh -e ssh * helix.nih.gov:/data/dout2/20210629Krios_rOAT1-LMNG/finished-frames/ 
+- [ ] rsync --progress -avdzh -e ssh 3dws10.jianglab.science:/data/nhlbi-nfs/lab-jiang/EM-RAW-DATA/dout2/OAT/20210629Krios_rOAT1-LMNG/2021-06-29-00-00-OAT_LMNG-finished-frames/* .
 - [ ] rsync -a -d -v -z -e ssh  *.tif helix.nih.gov://data/dout2/20210122Gracios_PnuCT-3NR-C8/finished-frames
 
 # Transfer from Biowulf to local folder
