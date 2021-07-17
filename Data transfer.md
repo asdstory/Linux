@@ -31,6 +31,14 @@ cd xxx
 
 - [ ] rsync -r -a -v -e ssh smb://hl-share.nhlbi.nih.gov/bbc/Lab-Jiang/ ./
 
+# Transfer from shared lab folder to Biowulf
+
+```sh
+rsync -avP -e ssh * helix.nih.gov:/data/dout2/20210702Glacios/Fractions/
+
+```
+
+
 # Transfer from micefdata1 to biowulf
 
 - [ ] login to the micefdata1: ssh dout2@micefdata1.niddk.nih.gov
